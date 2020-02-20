@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.heighlight{
+    color: orange;
+}
+.halp-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halp-width img{
+    width: 100%;
+    margin-top: 50px;
+}
+section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+.btn-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 8px 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 700;
+    display: inline-block;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.bottom-banner{
+    background-image: url("images/bottom-banner.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bottom-banner .halp-width p {
+    padding-right: 20px;
+}
+.single-expriense{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 350px;
+    background: #fff;
+}
+.expriense-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
